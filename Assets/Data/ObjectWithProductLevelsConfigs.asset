@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 325e26e4e1597164a91a8d0e26d01540, type: 3}
+  m_Name: ObjectWithProductLevelsConfigs
+  m_EditorClassIdentifier: 
+  freezerConfig: {fileID: 11400000, guid: 6413e76e249d92b4185077a4ce02dd93, type: 2}
+  freezerStandingConfig: {fileID: 11400000, guid: aab84e958057b6a4d89c9f57bad1907a, type: 2}
+  shelfAlcoConfig: {fileID: 11400000, guid: 409498178e210cb4a8a6f6208429a494, type: 2}
+  shelfSauceConfig: {fileID: 11400000, guid: e34cedfb48b3415438ab496e1c3c87f3, type: 2}
+  shelfBagsConfig: {fileID: 11400000, guid: e5353da0b0f22a046b006e4c42935de5, type: 2}
+  shelfBoxesConfig: {fileID: 11400000, guid: 5cf9d527f7c3e0c45af32139f5cd28cc, type: 2}
+  tableVegetablesConfig: {fileID: 11400000, guid: dc443d8d3db5c0b4aa99207ed6cc6bd0, type: 2}
+  tableFruitsConfig: {fileID: 11400000, guid: dca60ab411b8cb04cbc391a6dc99df1f, type: 2}
+  displayBreadConfig: {fileID: 11400000, guid: 217a4a9326bf51f4b890ce1d4876f86b, type: 2}
+  cashRegisterConfig: {fileID: 0}
