@@ -12,91 +12,108 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b413c769288090469837aff9836e704, type: 3}
   m_Name: MarketObjectsTransformsConfig
   m_EditorClassIdentifier: 
-  freezers:
-  - position: {x: -0.96, y: 0, z: 1.23}
+  objectsTransforms:
+  - objectID: freezer_1
+    position: {x: -0.96, y: 0, z: 1.23}
     rotation: {x: 0, y: 0, z: 0}
     scale: {x: 1, y: 1, z: 1}
-  - position: {x: -0.96, y: 0, z: 1.91}
+  - objectID: freezer_2
+    position: {x: -0.96, y: 0, z: 1.91}
     rotation: {x: 0, y: -180, z: 0}
     scale: {x: 1, y: 1, z: 1}
-  - position: {x: -0.11, y: 0, z: 1.23}
+  - objectID: freezer_3
+    position: {x: -0.11, y: 0, z: 1.23}
     rotation: {x: 0, y: 0, z: 0}
     scale: {x: 1, y: 1, z: 1}
-  - position: {x: -0.11, y: 0, z: 1.91}
+  - objectID: freezer_4
+    position: {x: -0.11, y: 0, z: 1.91}
     rotation: {x: 0, y: -180, z: 0}
     scale: {x: 1, y: 1, z: 1}
-  freezersStanding:
-  - position: {x: -0.36, y: 0, z: 5.37}
+  - objectID: freezer_standing_1
+    position: {x: -0.36, y: 0, z: 5.37}
     rotation: {x: 0, y: 180, z: 0}
     scale: {x: 1, y: 1, z: 1}
-  - position: {x: 0.64, y: 0, z: 5.37}
+  - objectID: freezer_standing_2
+    position: {x: 0.64, y: 0, z: 5.37}
     rotation: {x: 0, y: 180, z: 0}
     scale: {x: 1, y: 1, z: 1}
-  - position: {x: 1.64, y: 0, z: 5.37}
+  - objectID: freezer_standing_3
+    position: {x: 1.64, y: 0, z: 5.37}
     rotation: {x: 0, y: 180, z: 0}
     scale: {x: 1, y: 1, z: 1}
-  shelfAlco:
-  - position: {x: -2.736, y: 0, z: 1.093}
+  - objectID: shelf_alco_1
+    position: {x: -2.736, y: 0, z: 1.093}
     rotation: {x: 0, y: 90, z: 0}
     scale: {x: 1, y: 1, z: 1}
-  - position: {x: -2.736, y: 0, z: 2.024}
+  - objectID: shelf_alco_2
+    position: {x: -2.736, y: 0, z: 2.024}
     rotation: {x: 0, y: 90, z: 0}
     scale: {x: 1, y: 1, z: 1}
-  shelfSauce:
-  - position: {x: -2.74, y: 0, z: 3.084}
+  - objectID: shelf_sauce_1
+    position: {x: -2.74, y: 0, z: 3.084}
     rotation: {x: 0, y: 90, z: 0}
     scale: {x: 1, y: 1, z: 1}
-  - position: {x: -2.74, y: 0, z: 4.024}
+  - objectID: shelf_sauce_2
+    position: {x: -2.74, y: 0, z: 4.024}
     rotation: {x: 0, y: 90, z: 0}
     scale: {x: 1, y: 1, z: 1}
-  shelfBags:
-  - position: {x: 0.47, y: 0, z: -0.18}
+  - objectID: shelf_bags_1
+    position: {x: 0.47, y: 0, z: -0.18}
     rotation: {x: 0, y: 0, z: 0}
     scale: {x: 1, y: 1, z: 1}
-  - position: {x: 1.32, y: 0, z: -0.18}
+  - objectID: shelf_bags_2
+    position: {x: 1.32, y: 0, z: -0.18}
     rotation: {x: 0, y: 0, z: 0}
     scale: {x: 1, y: 1, z: 1}
-  shelfBoxes:
-  - position: {x: -1.8, y: 0, z: -0.18}
+  - objectID: shelf_boxes_1
+    position: {x: -2.67, y: 0, z: -0.18}
     rotation: {x: 0, y: 0, z: 0}
     scale: {x: 1, y: 1, z: 1}
-  - position: {x: -2.67, y: 0, z: -0.18}
+  - objectID: shelf_boxes_2
+    position: {x: -1.8, y: 0, z: -0.18}
     rotation: {x: 0, y: 0, z: 0}
     scale: {x: 1, y: 1, z: 1}
-  tableVegetables:
-  - position: {x: 1.5, y: 0, z: 1.25}
+  - objectID: table_vegetables_1
+    position: {x: 1.5, y: 0, z: 1.25}
     rotation: {x: 0, y: 0, z: 0}
     scale: {x: 1.5, y: 1.5, z: 1.5}
-  - position: {x: 1.5, y: 0, z: 1.9}
+  - objectID: table_vegetables_2
+    position: {x: 1.5, y: 0, z: 1.9}
     rotation: {x: 0, y: 0, z: 0}
     scale: {x: 1.5, y: 1.5, z: 1.5}
-  tableFruits:
-  - position: {x: 1.5, y: 0, z: 3.463}
+  - objectID: table_fruits_1
+    position: {x: 1.5, y: 0, z: 3.463}
     rotation: {x: 0, y: 0, z: 0}
     scale: {x: 1.5, y: 1.5, z: 1.5}
-  - position: {x: 1.5, y: 0, z: 4.06}
+  - objectID: table_fruits_2
+    position: {x: 1.5, y: 0, z: 4.06}
     rotation: {x: 0, y: 0, z: 0}
     scale: {x: 1.5, y: 1.5, z: 1.5}
-  displayBread:
-  - position: {x: -0.89, y: 0, z: 3.413}
+  - objectID: display_bread_1
+    position: {x: -0.89, y: 0, z: 3.413}
     rotation: {x: 0, y: -180, z: 0}
     scale: {x: 1, y: 1, z: 1}
-  - position: {x: -0.89, y: 0, z: 4.06}
+  - objectID: display_bread_2
+    position: {x: -0.89, y: 0, z: 4.06}
     rotation: {x: 0, y: 0, z: 0}
     scale: {x: 1, y: 1, z: 1}
-  - position: {x: -0.16, y: 0, z: 3.43}
+  - objectID: display_bread_3
+    position: {x: -0.16, y: 0, z: 3.43}
     rotation: {x: 0, y: -180, z: 0}
     scale: {x: 1, y: 1, z: 1}
-  - position: {x: -0.16, y: 0, z: 4.06}
+  - objectID: display_bread_4
+    position: {x: -0.16, y: 0, z: 4.06}
     rotation: {x: 0, y: 0, z: 0}
     scale: {x: 1, y: 1, z: 1}
-  cashRegister:
-  - position: {x: 3.18, y: 0, z: 1.08}
+  - objectID: cash_register_1
+    position: {x: 3.18, y: 0, z: 1.08}
     rotation: {x: 0, y: 90, z: 0}
     scale: {x: 1, y: 1, z: 1}
-  - position: {x: 3.18, y: 0, z: 2.59}
+  - objectID: cash_register_2
+    position: {x: 3.18, y: 0, z: 2.59}
     rotation: {x: 0, y: 90, z: 0}
     scale: {x: 1, y: 1, z: 1}
-  - position: {x: 3.18, y: 0, z: 4.11}
+  - objectID: cash_register_3
+    position: {x: 3.18, y: 0, z: 4.11}
     rotation: {x: 0, y: 90, z: 0}
     scale: {x: 1, y: 1, z: 1}

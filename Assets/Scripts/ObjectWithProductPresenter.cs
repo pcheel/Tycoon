@@ -14,11 +14,13 @@ public class ObjectWithProductPresenter
         _view = view;
 
         _model.OnLevelUpped += LevelUpped;
-        _model.OnGettingProductStarted += GettingProductStarted;
-        _model.OnAddingProductStarted += AddingProductStarted;
         _model.OnProductAmountChanged += ProductAmountChanged;
     }
 
+    public void AddProducts(int amount, float durationOfAdding)
+    {
+        _model.AddProduct(amount, durationOfAdding);
+    }
     public void LevelUpped(int level)
     {
         _view.LevelUpped(level);
@@ -27,20 +29,12 @@ public class ObjectWithProductPresenter
     {
 
     }
-    public void GettingProductStarted(int duration)
+    public void ProductAmountChanged(int amount, float duration)
     {
-        var newDuration = (float)duration;
-        newDuration /= 1000f;
-        _view.GettingProductStarted(newDuration);
+        _view.AmountChanged(amount, duration);
     }
-    public void AddingProductStarted(int duration)
+    public void CalculateProgressCanvasCorrectRotation(Transform cameraTransform)
     {
-        var newDuration = (float)duration;
-        newDuration /= 1000f;
-        _view.AddingProductStarted(newDuration);
-    }
-    public void ProductAmountChanged(int amount)
-    {
-        _view.AmountChanged(amount);
+        _view.CalculateProgressCanvasCorrectRotation(cameraTransform);
     }
 }

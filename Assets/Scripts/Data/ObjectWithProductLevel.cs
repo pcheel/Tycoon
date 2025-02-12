@@ -7,3 +7,4 @@ public class ObjectWithProductLevel
     public float productPrice;
     public int durationOfSelection;
 }
+

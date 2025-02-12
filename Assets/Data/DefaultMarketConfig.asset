@@ -12,13 +12,56 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1315bf578b3396d4dad195142a0ee271, type: 3}
   m_Name: DefaultMarketConfig
   m_EditorClassIdentifier: 
-  freezersLevels: 
-  freezersStandingLevels: 
-  shelfAlcoLevels: 
-  shelfSauceLevels: 
-  shelfBagsLevels: 
-  shelfBoxesLevels: 
-  tableVegetablesLevels: 
-  tableFruitsLevels: 
-  displayBreadLevels: 
-  cashRegisterLevels: 
+  currentLevels:
+  - objectID: freezer_1
+    currentLevel: 1
+  - objectID: freezer_2
+    currentLevel: 0
+  - objectID: freezer_3
+    currentLevel: 0
+  - objectID: freezer_4
+    currentLevel: 0
+  - objectID: freezer_standing_1
+    currentLevel: 1
+  - objectID: freezer_standing_2
+    currentLevel: 0
+  - objectID: freezer_standing_3
+    currentLevel: 0
+  - objectID: shelf_alco_1
+    currentLevel: 1
+  - objectID: shelf_alco_2
+    currentLevel: 0
+  - objectID: shelf_sauce_1
+    currentLevel: 0
+  - objectID: shelf_sauce_2
+    currentLevel: 0
+  - objectID: shelf_bags_1
+    currentLevel: 0
+  - objectID: shelf_bags_2
+    currentLevel: 0
+  - objectID: shelf_boxes_1
+    currentLevel: 0
+  - objectID: shelf_boxes_2
+    currentLevel: 0
+  - objectID: table_vegetables_1
+    currentLevel: 0
+  - objectID: table_vegetables_2
+    currentLevel: 0
+  - objectID: table_fruits_1
+    currentLevel: 0
+  - objectID: table_fruits_2
+    currentLevel: 0
+  - objectID: display_bread_1
+    currentLevel: 0
+  - objectID: display_bread_2
+    currentLevel: 0
+  - objectID: display_bread_3
+    currentLevel: 0
+  - objectID: display_bread_4
+    currentLevel: 0
+  - objectID: cash_register_1
+    currentLevel: 0
+  - objectID: cash_register_2
+    currentLevel: 0
+  - objectID: cash_register_3
+    currentLevel: 0

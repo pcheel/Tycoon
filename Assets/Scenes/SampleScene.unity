@@ -237,6 +237,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d9ef0693ed898d4baa04aa3532bab6b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -546,6 +550,7 @@ Transform:
   - {fileID: 1928254247}
   - {fileID: 1263021426}
   - {fileID: 469097826}
+  - {fileID: 1891440399}
   m_Father: {fileID: 284336893}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &30439265
@@ -599,6 +604,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5d9ef0693ed898d4baa04aa3532bab6b, type: 3}
       propertyPath: m_Name
       value: fence (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d9ef0693ed898d4baa04aa3532bab6b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1150,6 +1159,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shopping-cart
       objectReference: {fileID: 0}
+    - target: {fileID: 5627137282129402365, guid: 14adee8cfea52d645bd6ab1bb727d16e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1340,6 +1353,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5d9ef0693ed898d4baa04aa3532bab6b, type: 3}
       propertyPath: m_Name
       value: fence (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d9ef0693ed898d4baa04aa3532bab6b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2149,6 +2166,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shelf-alco 1 lvl
       objectReference: {fileID: 0}
+    - target: {fileID: 6422931805703488057, guid: 88320dcae90997548bc071ec7bb28fa1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2413,7 +2434,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 412324626}
+    m_TransformParent: {fileID: 28952987}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: defee8e129a219c46976438eea9cef90, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2458,6 +2479,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: defee8e129a219c46976438eea9cef90, type: 3}
       propertyPath: m_Name
       value: floor-small-square
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: defee8e129a219c46976438eea9cef90, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2520,6 +2545,10 @@ PrefabInstance:
     - target: {fileID: 1151390686282873013, guid: 2bf914f4dbd5c89409df93ebd5a92389, type: 3}
       propertyPath: m_Name
       value: display-bread 1 lvl (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151390686282873013, guid: 2bf914f4dbd5c89409df93ebd5a92389, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2836,6 +2865,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: freezer
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93c32ca85b6ac67488d7db80d4f96271, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2852,6 +2885,10 @@ PrefabInstance:
     - target: {fileID: 315102282646370555, guid: 622e3789269f05f4e9ab5629eae23a38, type: 3}
       propertyPath: m_Name
       value: shelf-bags 1 lvl
+      objectReference: {fileID: 0}
+    - target: {fileID: 315102282646370555, guid: 622e3789269f05f4e9ab5629eae23a38, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1086677543198483009, guid: 622e3789269f05f4e9ab5629eae23a38, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3527,7 +3564,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d115bd62ee7337c438aa041eda783b29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _objectsWithProductLevelsConfigs: {fileID: 11400000, guid: c1e42657053148f4f9781bb5afcafa60, type: 2}
+  _marketLevelsConfig: {fileID: 11400000, guid: a375f4cc1a5da734f90406811dead286, type: 2}
+  _prefabsConfig: {fileID: 11400000, guid: 879aa0d38d034d24c885ec23788ed1b9, type: 2}
+  _transformsConfig: {fileID: 11400000, guid: 478c94eab47c93749a299bbbf63f4088, type: 2}
 --- !u!4 &249985716
 Transform:
   m_ObjectHideFlags: 0
@@ -4792,6 +4831,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: display-bread 1 lvl
       objectReference: {fileID: 0}
+    - target: {fileID: 1151390686282873013, guid: 2bf914f4dbd5c89409df93ebd5a92389, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4995,6 +5038,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: table-vegetables 1 lvl 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8290693823880900385, guid: 680f3f868b6f1aa48b32ec637708c21d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8575328126123460487, guid: 680f3f868b6f1aa48b32ec637708c21d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.5
@@ -5163,7 +5210,6 @@ Transform:
   - {fileID: 180965194}
   - {fileID: 1451491284}
   - {fileID: 372471225}
-  - {fileID: 1891440399}
   - {fileID: 1559879009}
   - {fileID: 1895140471}
   - {fileID: 780603653}
@@ -5320,6 +5366,10 @@ PrefabInstance:
     - target: {fileID: 1151390686282873013, guid: 2bf914f4dbd5c89409df93ebd5a92389, type: 3}
       propertyPath: m_Name
       value: display-bread 1 lvl
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151390686282873013, guid: 2bf914f4dbd5c89409df93ebd5a92389, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5616,6 +5666,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: freezers-standing
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada2eafb618b6054da7ee70d6b4d2dbd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5739,6 +5793,10 @@ PrefabInstance:
     - target: {fileID: 5627137282129402365, guid: 14adee8cfea52d645bd6ab1bb727d16e, type: 3}
       propertyPath: m_Name
       value: shopping-cart
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627137282129402365, guid: 14adee8cfea52d645bd6ab1bb727d16e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6059,6 +6117,10 @@ PrefabInstance:
     - target: {fileID: 6422931805703488057, guid: 82cec04eac765f541a81215261d83843, type: 3}
       propertyPath: m_Name
       value: shelf-sauce 1 lvl
+      objectReference: {fileID: 0}
+    - target: {fileID: 6422931805703488057, guid: 82cec04eac765f541a81215261d83843, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6496,6 +6558,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d9ef0693ed898d4baa04aa3532bab6b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6692,6 +6758,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shelf-boxes 1 lvl
       objectReference: {fileID: 0}
+    - target: {fileID: 5321647356523504586, guid: 6435cd4b4e60d8c4c8996be6c6f962c9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6713,6 +6783,10 @@ PrefabInstance:
     - target: {fileID: 2628098877775225401, guid: ed602a4b2ef2ed744ac46245ac587105, type: 3}
       propertyPath: m_Name
       value: cash-register
+      objectReference: {fileID: 0}
+    - target: {fileID: 2628098877775225401, guid: ed602a4b2ef2ed744ac46245ac587105, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3401117865809901699, guid: ed602a4b2ef2ed744ac46245ac587105, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7374,6 +7448,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shelf-alco 1 lvl
       objectReference: {fileID: 0}
+    - target: {fileID: 6422931805703488057, guid: 88320dcae90997548bc071ec7bb28fa1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7778,6 +7856,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5d9ef0693ed898d4baa04aa3532bab6b, type: 3}
       propertyPath: m_Name
       value: fence (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d9ef0693ed898d4baa04aa3532bab6b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8885,6 +8967,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shopping-cart (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5627137282129402365, guid: 14adee8cfea52d645bd6ab1bb727d16e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8956,6 +9042,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5d9ef0693ed898d4baa04aa3532bab6b, type: 3}
       propertyPath: m_Name
       value: fence (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d9ef0693ed898d4baa04aa3532bab6b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9360,6 +9450,10 @@ PrefabInstance:
     - target: {fileID: 2628098877775225401, guid: ed602a4b2ef2ed744ac46245ac587105, type: 3}
       propertyPath: m_Name
       value: cash-register
+      objectReference: {fileID: 0}
+    - target: {fileID: 2628098877775225401, guid: ed602a4b2ef2ed744ac46245ac587105, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3401117865809901699, guid: ed602a4b2ef2ed744ac46245ac587105, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9831,6 +9925,10 @@ PrefabInstance:
     - target: {fileID: 2628098877775225401, guid: ed602a4b2ef2ed744ac46245ac587105, type: 3}
       propertyPath: m_Name
       value: cash-register
+      objectReference: {fileID: 0}
+    - target: {fileID: 2628098877775225401, guid: ed602a4b2ef2ed744ac46245ac587105, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3401117865809901699, guid: ed602a4b2ef2ed744ac46245ac587105, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10655,6 +10753,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d9ef0693ed898d4baa04aa3532bab6b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10907,6 +11009,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5d9ef0693ed898d4baa04aa3532bab6b, type: 3}
       propertyPath: m_Name
       value: fence (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d9ef0693ed898d4baa04aa3532bab6b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11440,6 +11546,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 93c32ca85b6ac67488d7db80d4f96271, type: 3}
       propertyPath: m_Name
       value: freezer
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93c32ca85b6ac67488d7db80d4f96271, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12437,6 +12547,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d9ef0693ed898d4baa04aa3532bab6b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13000,6 +13114,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shelf-sauce 1 lvl
       objectReference: {fileID: 0}
+    - target: {fileID: 6422931805703488057, guid: 82cec04eac765f541a81215261d83843, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13118,6 +13236,10 @@ PrefabInstance:
     - target: {fileID: 5717042953093682690, guid: 2e31fe8864352b84b843b2ff13b7dcb8, type: 3}
       propertyPath: m_Name
       value: shopping-basket
+      objectReference: {fileID: 0}
+    - target: {fileID: 5717042953093682690, guid: 2e31fe8864352b84b843b2ff13b7dcb8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13428,6 +13550,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5d9ef0693ed898d4baa04aa3532bab6b, type: 3}
       propertyPath: m_Name
       value: fence (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d9ef0693ed898d4baa04aa3532bab6b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14091,6 +14217,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shopping-basket (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5717042953093682690, guid: 2e31fe8864352b84b843b2ff13b7dcb8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14261,6 +14391,10 @@ PrefabInstance:
     - target: {fileID: 5717042953093682690, guid: 2e31fe8864352b84b843b2ff13b7dcb8, type: 3}
       propertyPath: m_Name
       value: shopping-basket (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5717042953093682690, guid: 2e31fe8864352b84b843b2ff13b7dcb8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15153,6 +15287,52 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: defee8e129a219c46976438eea9cef90, type: 3}
   m_PrefabInstance: {fileID: 678386971}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1396567583
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1396567585}
+  - component: {fileID: 1396567584}
+  m_Layer: 0
+  m_Name: MarketSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1396567584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396567583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1bc01dc91cf694eb4a840bae89d70a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _parentTransform: {fileID: 412324626}
+  _cameraTransform: {fileID: 321736144}
+--- !u!4 &1396567585
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396567583}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.62735, y: -4.099721, z: 1.1906412}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1404063655
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15545,6 +15725,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _configManager: {fileID: 249985715}
+  _marketObjectSpawner: {fileID: 1396567584}
+  _marketConfig: {fileID: 11400000, guid: 4b499c09924370f4e8cf591ff75699c9, type: 2}
   view: {fileID: 1923060522}
 --- !u!4 &1429849371
 Transform:
@@ -15634,6 +15816,10 @@ PrefabInstance:
     - target: {fileID: 8290693823880900385, guid: 680f3f868b6f1aa48b32ec637708c21d, type: 3}
       propertyPath: m_Name
       value: table-vegetables 1 lvl 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8290693823880900385, guid: 680f3f868b6f1aa48b32ec637708c21d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8575328126123460487, guid: 680f3f868b6f1aa48b32ec637708c21d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15793,6 +15979,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5d9ef0693ed898d4baa04aa3532bab6b, type: 3}
       propertyPath: m_Name
       value: fence (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d9ef0693ed898d4baa04aa3532bab6b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16293,6 +16483,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d9ef0693ed898d4baa04aa3532bab6b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16738,6 +16932,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: display-bread 1 lvl
       objectReference: {fileID: 0}
+    - target: {fileID: 1151390686282873013, guid: 2bf914f4dbd5c89409df93ebd5a92389, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16759,6 +16957,10 @@ PrefabInstance:
     - target: {fileID: 8290693823880900385, guid: 17395babb1e908e4fa47ddb6e61a4010, type: 3}
       propertyPath: m_Name
       value: table-fruits 3 lvl
+      objectReference: {fileID: 0}
+    - target: {fileID: 8290693823880900385, guid: 17395babb1e908e4fa47ddb6e61a4010, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8575328126123460487, guid: 17395babb1e908e4fa47ddb6e61a4010, type: 3}
       propertyPath: m_LocalScale.x
@@ -17347,6 +17549,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: freezers-standing
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada2eafb618b6054da7ee70d6b4d2dbd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17476,6 +17682,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shopping-basket (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5717042953093682690, guid: 2e31fe8864352b84b843b2ff13b7dcb8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17542,6 +17752,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5d9ef0693ed898d4baa04aa3532bab6b, type: 3}
       propertyPath: m_Name
       value: fence (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d9ef0693ed898d4baa04aa3532bab6b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19122,6 +19336,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shopping-cart
       objectReference: {fileID: 0}
+    - target: {fileID: 5627137282129402365, guid: 14adee8cfea52d645bd6ab1bb727d16e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19566,6 +19784,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d9ef0693ed898d4baa04aa3532bab6b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19896,6 +20118,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shelf-boxes 1 lvl
       objectReference: {fileID: 0}
+    - target: {fileID: 5321647356523504586, guid: 6435cd4b4e60d8c4c8996be6c6f962c9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20029,6 +20255,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5d9ef0693ed898d4baa04aa3532bab6b, type: 3}
       propertyPath: m_Name
       value: fence (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d9ef0693ed898d4baa04aa3532bab6b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20500,6 +20730,10 @@ PrefabInstance:
     - target: {fileID: 8290693823880900385, guid: 17395babb1e908e4fa47ddb6e61a4010, type: 3}
       propertyPath: m_Name
       value: table-fruits 3 lvl
+      objectReference: {fileID: 0}
+    - target: {fileID: 8290693823880900385, guid: 17395babb1e908e4fa47ddb6e61a4010, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8575328126123460487, guid: 17395babb1e908e4fa47ddb6e61a4010, type: 3}
       propertyPath: m_LocalScale.x
@@ -21354,6 +21588,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: freezer
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93c32ca85b6ac67488d7db80d4f96271, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21659,6 +21897,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d9ef0693ed898d4baa04aa3532bab6b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21685,6 +21927,10 @@ PrefabInstance:
     - target: {fileID: 315102282646370555, guid: 622e3789269f05f4e9ab5629eae23a38, type: 3}
       propertyPath: m_Name
       value: shelf-bags 1 lvl
+      objectReference: {fileID: 0}
+    - target: {fileID: 315102282646370555, guid: 622e3789269f05f4e9ab5629eae23a38, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1086677543198483009, guid: 622e3789269f05f4e9ab5629eae23a38, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22046,6 +22292,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shopping-cart
       objectReference: {fileID: 0}
+    - target: {fileID: 5627137282129402365, guid: 14adee8cfea52d645bd6ab1bb727d16e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22169,6 +22419,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5d9ef0693ed898d4baa04aa3532bab6b, type: 3}
       propertyPath: m_Name
       value: fence
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d9ef0693ed898d4baa04aa3532bab6b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22546,6 +22800,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5d9ef0693ed898d4baa04aa3532bab6b, type: 3}
       propertyPath: m_Name
       value: fence (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d9ef0693ed898d4baa04aa3532bab6b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23011,6 +23269,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: freezers-standing
       objectReference: {fileID: 0}
+    - target: {fileID: 6101698904873812563, guid: d8ae007a8fe037f4eb81c1000460e996, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6910288193779964137, guid: d8ae007a8fe037f4eb81c1000460e996, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.36
@@ -23065,9 +23327,33 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 412324626}
     m_Modifications:
+    - target: {fileID: 1694581713466763570, guid: 02d5364f1b05aa44589415f48902368c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694581713466763570, guid: 02d5364f1b05aa44589415f48902368c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3820500685136027994, guid: 02d5364f1b05aa44589415f48902368c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3820500685136027994, guid: 02d5364f1b05aa44589415f48902368c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6088034243014263908, guid: 02d5364f1b05aa44589415f48902368c, type: 3}
       propertyPath: m_Name
       value: freezer
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088034243014263908, guid: 02d5364f1b05aa44589415f48902368c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6245687864758835271, guid: 02d5364f1b05aa44589415f48902368c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6860911119376572126, guid: 02d5364f1b05aa44589415f48902368c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23125,3 +23411,4 @@ SceneRoots:
   - {fileID: 249985716}
   - {fileID: 1700973087}
   - {fileID: 1593413085}
+  - {fileID: 1396567585}
