@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: beb4a23d11e633242a282cf0c7d402de, type: 3}
+  m_Name: PrefabsConfig
+  m_EditorClassIdentifier: 
+  prefabsDatas:
+  - objectID: freezer_1
+    prefab: {fileID: 6088034243014263908, guid: 02d5364f1b05aa44589415f48902368c, type: 3}
+  - objectID: freezer_2
+    prefab: {fileID: 6088034243014263908, guid: 02d5364f1b05aa44589415f48902368c, type: 3}
+  - objectID: freezer_3
+    prefab: {fileID: 6088034243014263908, guid: 02d5364f1b05aa44589415f48902368c, type: 3}
+  - objectID: freezer_4
+    prefab: {fileID: 6088034243014263908, guid: 02d5364f1b05aa44589415f48902368c, type: 3}
+  - objectID: freezer_standing_1
+    prefab: {fileID: 6101698904873812563, guid: d8ae007a8fe037f4eb81c1000460e996, type: 3}
+  - objectID: freezer_standing_2
+    prefab: {fileID: 6101698904873812563, guid: d8ae007a8fe037f4eb81c1000460e996, type: 3}
+  - objectID: freezer_standing_3
+    prefab: {fileID: 6101698904873812563, guid: d8ae007a8fe037f4eb81c1000460e996, type: 3}
+  - objectID: shelf_alco_1
+    prefab: {fileID: 6422931805703488057, guid: e7fbb163d5979af4cba5cc88dca566c0, type: 3}
+  - objectID: shelf_alco_2
+    prefab: {fileID: 6422931805703488057, guid: e7fbb163d5979af4cba5cc88dca566c0, type: 3}
+  - objectID: shelf_sauce_1
+    prefab: {fileID: 6422931805703488057, guid: d2338c77ed1ecdc459b6b44246161e1e, type: 3}
+  - objectID: shelf_sauce_2
+    prefab: {fileID: 6422931805703488057, guid: d2338c77ed1ecdc459b6b44246161e1e, type: 3}
+  - objectID: shelf_bags_1
+    prefab: {fileID: 315102282646370555, guid: cbfbda1a07b1e484baef3948521a8f9d, type: 3}
+  - objectID: shelf_bags_2
+    prefab: {fileID: 315102282646370555, guid: cbfbda1a07b1e484baef3948521a8f9d, type: 3}
+  - objectID: shelf_boxes_1
+    prefab: {fileID: 5321647356523504586, guid: b6d2d8b141bfee444a8299e124e70d27, type: 3}
+  - objectID: shelf_boxes_2
+    prefab: {fileID: 5321647356523504586, guid: b6d2d8b141bfee444a8299e124e70d27, type: 3}
+  - objectID: table_vegetables_1
+    prefab: {fileID: 8290693823880900385, guid: 680f3f868b6f1aa48b32ec637708c21d, type: 3}
+  - objectID: table_vegetables_2
+    prefab: {fileID: 8290693823880900385, guid: 680f3f868b6f1aa48b32ec637708c21d, type: 3}
+  - objectID: table_fruits_1
+    prefab: {fileID: 8290693823880900385, guid: 60620f081c1e9a74ba778123975539c7, type: 3}
+  - objectID: table_fruits_2
+    prefab: {fileID: 8290693823880900385, guid: 60620f081c1e9a74ba778123975539c7, type: 3}
+  - objectID: display_bread_1
+    prefab: {fileID: 1151390686282873013, guid: 2bf914f4dbd5c89409df93ebd5a92389, type: 3}
+  - objectID: display_bread_2
+    prefab: {fileID: 1151390686282873013, guid: 2bf914f4dbd5c89409df93ebd5a92389, type: 3}
+  - objectID: display_bread_3
+    prefab: {fileID: 1151390686282873013, guid: 2bf914f4dbd5c89409df93ebd5a92389, type: 3}
+  - objectID: display_bread_4
+    prefab: {fileID: 1151390686282873013, guid: 2bf914f4dbd5c89409df93ebd5a92389, type: 3}
+  - objectID: cash_register_1
+    prefab: {fileID: 2628098877775225401, guid: ed602a4b2ef2ed744ac46245ac587105, type: 3}
+  - objectID: cash_register_2
+    prefab: {fileID: 2628098877775225401, guid: ed602a4b2ef2ed744ac46245ac587105, type: 3}
+  - objectID: cash_register_3
+    prefab: {fileID: 2628098877775225401, guid: ed602a4b2ef2ed744ac46245ac587105, type: 3}
+  - objectID: objects_group_upgrade
+    prefab: {fileID: 1421347778546316193, guid: e923e8fd8f752fd4cbfbad4e1192f09e, type: 3}
+  - objectID: object_upgrade
+    prefab: {fileID: 5759308359873012359, guid: 2d2764d05eed4bb4b9e9080133aa88f7, type: 3}

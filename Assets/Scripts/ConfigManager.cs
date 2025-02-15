@@ -58,14 +58,6 @@ public class ConfigManager : MonoBehaviour
         {
             _objectsWithProductLevelsConfigsDict.Add(objectLevelConfig.objectID, objectLevelConfig.objectWithProductLevels);
         }
-        // _objectsWithProductLevelsConfigsDict.Add(MarketObjectType.FreezerStanding, _objectsWithProductLevelsConfigs.freezerStandingConfig);
-        // _objectsWithProductLevelsConfigsDict.Add(MarketObjectType.ShelfAlco, _objectsWithProductLevelsConfigs.shelfAlcoConfig);
-        // _objectsWithProductLevelsConfigsDict.Add(MarketObjectType.ShelfSauce, _objectsWithProductLevelsConfigs.shelfSauceConfig);
-        // _objectsWithProductLevelsConfigsDict.Add(MarketObjectType.ShelfBags, _objectsWithProductLevelsConfigs.shelfBagsConfig);
-        // _objectsWithProductLevelsConfigsDict.Add(MarketObjectType.ShelfBoxes, _objectsWithProductLevelsConfigs.shelfBoxesConfig);
-        // _objectsWithProductLevelsConfigsDict.Add(MarketObjectType.TableVegetables, _objectsWithProductLevelsConfigs.tableVegetablesConfig);
-        // _objectsWithProductLevelsConfigsDict.Add(MarketObjectType.TableFruits, _objectsWithProductLevelsConfigs.tableFruitsConfig);
-        // _objectsWithProductLevelsConfigsDict.Add(MarketObjectType.DisplayBread, _objectsWithProductLevelsConfigs.displayBreadConfig);
     }
     private void CreatePrefabsConfigDict()
     {

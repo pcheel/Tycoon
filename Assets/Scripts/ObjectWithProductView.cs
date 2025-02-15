@@ -12,6 +12,10 @@ public class ObjectWithProductView : MonoBehaviour
     private bool _inProgress;
     private float _timeAfterFillStart;
     private float _fillDuration;
+    private const float CANVAS_PADDING_UP = 0.7f;
+    private const float CANVAS_PADDING_FORWARD = 3f;
+
+    public event Action<Action<int>> OnLevelRequest;
 
     private void Awake()
     {
@@ -23,13 +27,23 @@ public class ObjectWithProductView : MonoBehaviour
     }
     public void CalculateProgressCanvasCorrectRotation(Transform cameraTransform)
     {
-        transform.GetComponentInChildren<Canvas>().transform.rotation = cameraTransform.rotation;
+        var canvasTransform = transform.GetComponentInChildren<Canvas>().transform;
+        canvasTransform.rotation = cameraTransform.rotation;
+        canvasTransform.localPosition = Vector3.zero;
+        var position = canvasTransform.position;
+        position -= canvasTransform.forward * CANVAS_PADDING_FORWARD;
+        position += canvasTransform.up * CANVAS_PADDING_UP;
+        canvasTransform.position = position;
     }
     public void AmountChanged(int amount, float duration)
     {
         _fillDuration = duration;
         _inProgress = true;
         _progressBackground.gameObject.SetActive(true);
+    }
+    public void RequestLevel(Action<int> action)
+    {
+        OnLevelRequest?.Invoke(action);
     }
 
     private void Update()

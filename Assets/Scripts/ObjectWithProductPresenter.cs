@@ -15,6 +15,7 @@ public class ObjectWithProductPresenter
 
         _model.OnLevelUpped += LevelUpped;
         _model.OnProductAmountChanged += ProductAmountChanged;
+        _view.OnLevelRequest += GetLevel;
     }
 
     public void AddProducts(int amount, float durationOfAdding)
@@ -36,5 +37,13 @@ public class ObjectWithProductPresenter
     public void CalculateProgressCanvasCorrectRotation(Transform cameraTransform)
     {
         _view.CalculateProgressCanvasCorrectRotation(cameraTransform);
+    }
+    public string GetObjectID()
+    {
+        return _model.objectID;
+    }
+    public void GetLevel(Action<int> action)
+    {
+        action?.Invoke(_model.level);
     }
 }

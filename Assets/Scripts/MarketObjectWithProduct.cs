@@ -1,4 +1,3 @@
-using JetBrains.Annotations;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -13,14 +12,19 @@ public class MarketObjectWithProduct
     private int _durationOfSelection;
     private float _productPrice;
     private string _objectID;
+    private MarketObjectType _objectType;
 
     public event Action<int, float> OnProductAmountChanged;
     public event Action<int> OnLevelUpped;
 
-    public MarketObjectWithProduct(string objectID, int level)
+    public string objectID => _objectID;
+    public int level => _level;
+
+    public MarketObjectWithProduct(string objectID, int level, MarketObjectType type)
     {
         _objectID = objectID;
         _level = level;
+        _objectType = type;
     }
     public void AddProduct(int amount, float durationOfAdding)
     {

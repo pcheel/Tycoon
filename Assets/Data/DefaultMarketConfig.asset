@@ -14,54 +14,80 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentLevels:
   - objectID: freezer_1
+    objectType: 0
     currentLevel: 1
   - objectID: freezer_2
-    currentLevel: 0
+    objectType: 0
+    currentLevel: 1
   - objectID: freezer_3
+    objectType: 0
     currentLevel: 0
   - objectID: freezer_4
+    objectType: 0
     currentLevel: 0
   - objectID: freezer_standing_1
+    objectType: 1
     currentLevel: 1
   - objectID: freezer_standing_2
+    objectType: 1
     currentLevel: 0
   - objectID: freezer_standing_3
+    objectType: 1
     currentLevel: 0
   - objectID: shelf_alco_1
+    objectType: 2
     currentLevel: 1
   - objectID: shelf_alco_2
+    objectType: 2
     currentLevel: 0
   - objectID: shelf_sauce_1
+    objectType: 3
     currentLevel: 0
   - objectID: shelf_sauce_2
+    objectType: 3
     currentLevel: 0
   - objectID: shelf_bags_1
+    objectType: 4
     currentLevel: 0
   - objectID: shelf_bags_2
+    objectType: 4
     currentLevel: 0
   - objectID: shelf_boxes_1
+    objectType: 5
     currentLevel: 0
   - objectID: shelf_boxes_2
+    objectType: 5
     currentLevel: 0
   - objectID: table_vegetables_1
+    objectType: 6
     currentLevel: 0
   - objectID: table_vegetables_2
+    objectType: 6
     currentLevel: 0
   - objectID: table_fruits_1
+    objectType: 7
     currentLevel: 0
   - objectID: table_fruits_2
+    objectType: 7
     currentLevel: 0
   - objectID: display_bread_1
+    objectType: 8
     currentLevel: 0
   - objectID: display_bread_2
+    objectType: 8
     currentLevel: 0
   - objectID: display_bread_3
+    objectType: 8
     currentLevel: 0
   - objectID: display_bread_4
+    objectType: 8
     currentLevel: 0
   - objectID: cash_register_1
+    objectType: 9
     currentLevel: 0
   - objectID: cash_register_2
+    objectType: 9
     currentLevel: 0
   - objectID: cash_register_3
+    objectType: 9
     currentLevel: 0

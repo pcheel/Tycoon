@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 724c6ae315e991a4e943ed700b12ae0b, type: 3}
+  m_Name: MarketLevelsConfig
+  m_EditorClassIdentifier: 
+  objectsWithProductLevels:
+  - objectID: freezer_1
+    objectWithProductLevels:
+    - maxProductAmount: 0
+      productPrice: 0
+      durationOfSelection: 0
+  - objectID: freezer_2
+    objectWithProductLevels:
+    - maxProductAmount: 0
+      productPrice: 0
+      durationOfSelection: 0
+  - objectID: freezer_3
+    objectWithProductLevels:
+    - maxProductAmount: 0
+      productPrice: 0
+      durationOfSelection: 0
+  - objectID: freezer_4
+    objectWithProductLevels:
+    - maxProductAmount: 0
+      productPrice: 0
+      durationOfSelection: 0
+  - objectID: freezer_standing_1
+    objectWithProductLevels:
+    - maxProductAmount: 0
+      productPrice: 0
+      durationOfSelection: 0
+  - objectID: freezer_standing_2
+    objectWithProductLevels:
+    - maxProductAmount: 0
+      productPrice: 0
+      durationOfSelection: 0
+  - objectID: freezer_standing_3
+    objectWithProductLevels:
+    - maxProductAmount: 0
+      productPrice: 0
+      durationOfSelection: 0
+  - objectID: shelf_alco_1
+    objectWithProductLevels:
+    - maxProductAmount: 0
+      productPrice: 0
+      durationOfSelection: 0
+  - objectID: shelf_alco_2
+    objectWithProductLevels:
+    - maxProductAmount: 0
+      productPrice: 0
+      durationOfSelection: 0
+  - objectID: shelf_sauce_1
+    objectWithProductLevels:
+    - maxProductAmount: 0
+      productPrice: 0
+      durationOfSelection: 0
+  - objectID: shelf_sauce_2
+    objectWithProductLevels:
+    - maxProductAmount: 0
+      productPrice: 0
+      durationOfSelection: 0
+  - objectID: shelf_bags_1
+    objectWithProductLevels:
+    - maxProductAmount: 0
+      productPrice: 0
+      durationOfSelection: 0
+  - objectID: shelf_bags_2
+    objectWithProductLevels:
+    - maxProductAmount: 0
+      productPrice: 0
+      durationOfSelection: 0
+  - objectID: shelf_boxes_1
+    objectWithProductLevels:
+    - maxProductAmount: 0
+      productPrice: 0
+      durationOfSelection: 0
+  - objectID: shelf_boxes_2
+    objectWithProductLevels:
+    - maxProductAmount: 0
+      productPrice: 0
+      durationOfSelection: 0
+  - objectID: table_vegetables_1
+    objectWithProductLevels:
+    - maxProductAmount: 0
+      productPrice: 0
+      durationOfSelection: 0
+  - objectID: table_vegetables_2
+    objectWithProductLevels:
+    - maxProductAmount: 0
+      productPrice: 0
+      durationOfSelection: 0
+  - objectID: table_fruits_1
+    objectWithProductLevels:
+    - maxProductAmount: 0
+      productPrice: 0
+      durationOfSelection: 0
+  - objectID: table_fruits_2
+    objectWithProductLevels:
+    - maxProductAmount: 0
+      productPrice: 0
+      durationOfSelection: 0
+  - objectID: display_bread_1
+    objectWithProductLevels:
+    - maxProductAmount: 0
+      productPrice: 0
+      durationOfSelection: 0
+  - objectID: display_bread_2
+    objectWithProductLevels:
+    - maxProductAmount: 0
+      productPrice: 0
+      durationOfSelection: 0
+  - objectID: display_bread_3
+    objectWithProductLevels:
+    - maxProductAmount: 0
+      productPrice: 0
+      durationOfSelection: 0
+  - objectID: display_bread_4
+    objectWithProductLevels:
+    - maxProductAmount: 0
+      productPrice: 0
+      durationOfSelection: 0
+  - objectID: cash_register_1
+    objectWithProductLevels:
+    - maxProductAmount: 0
+      productPrice: 0
+      durationOfSelection: 0
+  - objectID: cash_register_2
+    objectWithProductLevels:
+    - maxProductAmount: 0
+      productPrice: 0
+      durationOfSelection: 0
+  - objectID: cash_register_3
+    objectWithProductLevels:
+    - maxProductAmount: 0
+      productPrice: 0
+      durationOfSelection: 0
