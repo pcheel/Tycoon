@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class MarketUpgradeView : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private List<ObjectGroupUpgradeView> _objectGroupsUpgradeViews;
 
-    // Update is called once per frame
-    void Update()
+    public List<ObjectGroupUpgradeView> objectGroupsUpgradeViews => _objectGroupsUpgradeViews;
+
+    public void ShowAllObjectViews()
     {
-        
+        foreach(var objectGroupUpgradeView in _objectGroupsUpgradeViews)
+        {
+            objectGroupUpgradeView.ShowParameters(objectGroupUpgradeView.objectsUpgradeView[0]);
+        }
+    }
+    private void Awake()
+    {
+        _objectGroupsUpgradeViews = new();
     }
 }

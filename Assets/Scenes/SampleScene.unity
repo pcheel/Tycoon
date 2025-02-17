@@ -14960,6 +14960,7 @@ MonoBehaviour:
   _parentTransform: {fileID: 412324626}
   _upgradeGroupParent: {fileID: 1543305737}
   _cameraTransform: {fileID: 321736144}
+  _marketUpgradeView: {fileID: 1700973089}
 --- !u!4 &1396567585
 Transform:
   m_ObjectHideFlags: 0
@@ -18264,6 +18265,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1700973087}
   - component: {fileID: 1700973088}
+  - component: {fileID: 1700973089}
   - component: {fileID: 1700973086}
   - component: {fileID: 1700973085}
   - component: {fileID: 1700973084}
@@ -18373,6 +18375,18 @@ MonoBehaviour:
   _showUpgradeButton: {fileID: 95584204}
   _closeUpgradeButton: {fileID: 476434688}
   _upgradeWindow: {fileID: 858849420}
+--- !u!114 &1700973089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700973083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b6f5794239cc57419974918f607e5f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1701162950
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -9,6 +9,7 @@ public class MarketObjectSpawner : MonoBehaviour
     [SerializeField] private Transform _parentTransform;
     [SerializeField] private Transform _upgradeGroupParent;
     [SerializeField] private Transform _cameraTransform;
+    [SerializeField] private MarketUpgradeView _marketUpgradeView;
 
     private List<ObjectWithProductView> _objectsViews;
     private List<ObjectWithProductPresenter> _objectsPresenters;
@@ -24,7 +25,10 @@ public class MarketObjectSpawner : MonoBehaviour
         foreach (var currentLevel in marketConfig.currentLevels)
         {
             if (currentLevel.currentLevel == 0)
+            {
+                CreateObjectUpgradeGroupsViews(currentLevel, configManager);
                 continue;
+            }
 
             var objectView = CreateMarketObjectView(currentLevel, configManager);
             _objectsViews.Add(objectView);
@@ -68,7 +72,24 @@ public class MarketObjectSpawner : MonoBehaviour
 
         var objectUpgradeGroup = CreateObjectsUpgradeGroupViews(configManager);
         _objectsGroupsUpgradeViews.Add(objectUpgradeGroup);
+        _marketUpgradeView.objectGroupsUpgradeViews.Add(objectUpgradeGroup);
         CreateObjectUpgradeView(configManager, objectUpgradeGroup, objectView);
+    }
+    private void CreateObjectUpgradeGroupsViews(CurrentLevel currentLevel, ConfigManager configManager)
+    {
+        foreach (var objectsGroupUpgradeView in _objectsGroupsUpgradeViews)
+        {
+            if (!objectsGroupUpgradeView.IsSameTypes(currentLevel.objectType))
+                continue;
+
+            CreateObjectUpgradeView(configManager, objectsGroupUpgradeView);
+            return;
+        }
+
+        var objectUpgradeGroup = CreateObjectsUpgradeGroupViews(configManager);
+        _objectsGroupsUpgradeViews.Add(objectUpgradeGroup);
+        _marketUpgradeView.objectGroupsUpgradeViews.Add(objectUpgradeGroup);
+        CreateObjectUpgradeView(configManager, objectUpgradeGroup);
     }
     private ObjectGroupUpgradeView CreateObjectsUpgradeGroupViews(ConfigManager configManager)
     {
@@ -84,5 +105,13 @@ public class MarketObjectSpawner : MonoBehaviour
         var objectUpgradeView = gameObject.GetComponent<ObjectUpgradeView>();
         objectGroupUpgradeView.AddObjectUpgradeToGroup(objectUpgradeView);
         objectUpgradeView.Init(objectView);
+    }
+    private void CreateObjectUpgradeView(ConfigManager configManager, ObjectGroupUpgradeView objectGroupUpgradeView)
+    {
+        var prefab = configManager.GetPrefab(OBJECT_UPGRADE_ID);
+        var parent = objectGroupUpgradeView.transform.GetComponentInChildren<GridLayoutGroup>().transform;
+        var gameObject = Instantiate(prefab, parent);
+        var objectUpgradeView = gameObject.GetComponent<ObjectUpgradeView>();
+        objectGroupUpgradeView.AddObjectUpgradeToGroup(objectUpgradeView);
     }
 }

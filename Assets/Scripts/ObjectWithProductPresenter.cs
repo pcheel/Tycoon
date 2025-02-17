@@ -16,6 +16,7 @@ public class ObjectWithProductPresenter
         _model.OnLevelUpped += LevelUpped;
         _model.OnProductAmountChanged += ProductAmountChanged;
         _view.OnLevelRequest += GetLevel;
+        _view.OnObjectIDRequest += GetObjectID;
     }
 
     public void AddProducts(int amount, float durationOfAdding)
@@ -42,8 +43,12 @@ public class ObjectWithProductPresenter
     {
         return _model.objectID;
     }
-    public void GetLevel(Action<int> action)
+    public void GetLevel(Action<int> callback)
     {
-        action?.Invoke(_model.level);
+        callback?.Invoke(_model.level);
+    }
+    public void GetObjectID(Action<string> callback)
+    {
+        callback?.Invoke(_model.objectID);
     }
 }

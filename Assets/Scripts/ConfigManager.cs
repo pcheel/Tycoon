@@ -33,6 +33,7 @@ public class ConfigManager : MonoBehaviour
     }
     public ObjectWithProductLevel GetObjectWithProductLevelData(string objectID, int level)
     {
+        Debug.Log(objectID);
         var objectConfig = _objectsWithProductLevelsConfigsDict[objectID];
         int correctLevel = --level;
         ObjectWithProductLevel levelConfig;

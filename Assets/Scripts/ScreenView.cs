@@ -9,7 +9,12 @@ public class ScreenView : MonoBehaviour
     [SerializeField] private Button _closeUpgradeButton;
     [SerializeField] private GameObject _upgradeWindow;
 
+    private MarketUpgradeView _marketUpgradeView;
 
+    private void Awake()
+    {
+        _marketUpgradeView = GetComponent<MarketUpgradeView>();
+    }
     private void OnEnable()
     {
         _showUpgradeButton.onClick.AddListener(ShowUpgradeWindow);
@@ -24,6 +29,7 @@ public class ScreenView : MonoBehaviour
     {
         _upgradeWindow.SetActive(true);
         _showUpgradeButton.gameObject.SetActive(false);
+        _marketUpgradeView.ShowAllObjectViews();
     }
     private void CloseUpgradeWindow()
     {

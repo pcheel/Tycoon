@@ -16,6 +16,7 @@ public class ObjectWithProductView : MonoBehaviour
     private const float CANVAS_PADDING_FORWARD = 3f;
 
     public event Action<Action<int>> OnLevelRequest;
+    public event Action<Action<string>> OnObjectIDRequest;
 
     private void Awake()
     {
@@ -41,9 +42,13 @@ public class ObjectWithProductView : MonoBehaviour
         _inProgress = true;
         _progressBackground.gameObject.SetActive(true);
     }
-    public void RequestLevel(Action<int> action)
+    public void RequestLevel(Action<int> callback)
     {
-        OnLevelRequest?.Invoke(action);
+        OnLevelRequest?.Invoke(callback);
+    }
+    public void RequestObjectID(Action<string> callback)
+    {
+        OnObjectIDRequest?.Invoke(callback);
     }
 
     private void Update()

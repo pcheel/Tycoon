@@ -9,8 +9,8 @@ public class MarketObjectWithProduct
     private int _level;
     private int _productAmount;
     private int _maxProductAmount;
-    private int _durationOfSelection;
-    private float _productPrice;
+    private float _durationOfSelection;
+    private int _productPrice;
     private string _objectID;
     private MarketObjectType _objectType;
 

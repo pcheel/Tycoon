@@ -25,12 +25,19 @@ public class ObjectUpgradeView : MonoBehaviour, IPointerClickHandler
     {
         OnSelected?.Invoke(_objectView);
     }
-    private int RequestLevel()
+    public int RequestLevel()
     {
         int level = 0;
-        Action<int> action = (int x) => level = x;
-        _objectView.RequestLevel(action);
+        Action<int> callback = (int x) => level = x;
+        _objectView.RequestLevel(callback);
         _levelText.text = level.ToString();
         return level;
+    }
+    public string RequestObjectID()
+    {
+        string objectID = string.Empty;
+        Action<string> callback = (string x) => objectID = x;
+        _objectView.RequestObjectID(callback);
+        return objectID;
     }
 }

@@ -15,131 +15,169 @@ MonoBehaviour:
   objectsWithProductLevels:
   - objectID: freezer_1
     objectWithProductLevels:
-    - maxProductAmount: 0
+    - levelUpPrice: 0
+      maxProductAmount: 0
+      productPrice: 0
+      durationOfSelection: 0
+    - levelUpPrice: 0
+      maxProductAmount: 0
       productPrice: 0
       durationOfSelection: 0
   - objectID: freezer_2
     objectWithProductLevels:
-    - maxProductAmount: 0
+    - levelUpPrice: 0
+      maxProductAmount: 0
+      productPrice: 0
+      durationOfSelection: 0
+    - levelUpPrice: 0
+      maxProductAmount: 0
       productPrice: 0
       durationOfSelection: 0
   - objectID: freezer_3
     objectWithProductLevels:
-    - maxProductAmount: 0
+    - levelUpPrice: 0
+      maxProductAmount: 0
       productPrice: 0
       durationOfSelection: 0
   - objectID: freezer_4
     objectWithProductLevels:
-    - maxProductAmount: 0
+    - levelUpPrice: 0
+      maxProductAmount: 0
       productPrice: 0
       durationOfSelection: 0
   - objectID: freezer_standing_1
     objectWithProductLevels:
-    - maxProductAmount: 0
+    - levelUpPrice: 0
+      maxProductAmount: 0
       productPrice: 0
       durationOfSelection: 0
   - objectID: freezer_standing_2
     objectWithProductLevels:
-    - maxProductAmount: 0
+    - levelUpPrice: 0
+      maxProductAmount: 0
+      productPrice: 0
+      durationOfSelection: 0
+    - levelUpPrice: 0
+      maxProductAmount: 0
       productPrice: 0
       durationOfSelection: 0
   - objectID: freezer_standing_3
     objectWithProductLevels:
-    - maxProductAmount: 0
+    - levelUpPrice: 0
+      maxProductAmount: 0
       productPrice: 0
       durationOfSelection: 0
   - objectID: shelf_alco_1
     objectWithProductLevels:
-    - maxProductAmount: 0
+    - levelUpPrice: 0
+      maxProductAmount: 0
       productPrice: 0
       durationOfSelection: 0
   - objectID: shelf_alco_2
     objectWithProductLevels:
-    - maxProductAmount: 0
+    - levelUpPrice: 0
+      maxProductAmount: 0
       productPrice: 0
       durationOfSelection: 0
   - objectID: shelf_sauce_1
     objectWithProductLevels:
-    - maxProductAmount: 0
+    - levelUpPrice: 0
+      maxProductAmount: 0
       productPrice: 0
       durationOfSelection: 0
   - objectID: shelf_sauce_2
     objectWithProductLevels:
-    - maxProductAmount: 0
+    - levelUpPrice: 0
+      maxProductAmount: 0
       productPrice: 0
       durationOfSelection: 0
   - objectID: shelf_bags_1
     objectWithProductLevels:
-    - maxProductAmount: 0
+    - levelUpPrice: 0
+      maxProductAmount: 0
       productPrice: 0
       durationOfSelection: 0
   - objectID: shelf_bags_2
     objectWithProductLevels:
-    - maxProductAmount: 0
+    - levelUpPrice: 0
+      maxProductAmount: 0
       productPrice: 0
       durationOfSelection: 0
   - objectID: shelf_boxes_1
     objectWithProductLevels:
-    - maxProductAmount: 0
+    - levelUpPrice: 0
+      maxProductAmount: 0
       productPrice: 0
       durationOfSelection: 0
   - objectID: shelf_boxes_2
     objectWithProductLevels:
-    - maxProductAmount: 0
+    - levelUpPrice: 0
+      maxProductAmount: 0
       productPrice: 0
       durationOfSelection: 0
   - objectID: table_vegetables_1
     objectWithProductLevels:
-    - maxProductAmount: 0
+    - levelUpPrice: 0
+      maxProductAmount: 0
       productPrice: 0
       durationOfSelection: 0
   - objectID: table_vegetables_2
     objectWithProductLevels:
-    - maxProductAmount: 0
+    - levelUpPrice: 0
+      maxProductAmount: 0
       productPrice: 0
       durationOfSelection: 0
   - objectID: table_fruits_1
     objectWithProductLevels:
-    - maxProductAmount: 0
+    - levelUpPrice: 0
+      maxProductAmount: 0
       productPrice: 0
       durationOfSelection: 0
   - objectID: table_fruits_2
     objectWithProductLevels:
-    - maxProductAmount: 0
+    - levelUpPrice: 0
+      maxProductAmount: 0
       productPrice: 0
       durationOfSelection: 0
   - objectID: display_bread_1
     objectWithProductLevels:
-    - maxProductAmount: 0
+    - levelUpPrice: 0
+      maxProductAmount: 0
       productPrice: 0
       durationOfSelection: 0
   - objectID: display_bread_2
     objectWithProductLevels:
-    - maxProductAmount: 0
+    - levelUpPrice: 0
+      maxProductAmount: 0
       productPrice: 0
       durationOfSelection: 0
   - objectID: display_bread_3
     objectWithProductLevels:
-    - maxProductAmount: 0
+    - levelUpPrice: 0
+      maxProductAmount: 0
       productPrice: 0
       durationOfSelection: 0
   - objectID: display_bread_4
     objectWithProductLevels:
-    - maxProductAmount: 0
+    - levelUpPrice: 0
+      maxProductAmount: 0
       productPrice: 0
       durationOfSelection: 0
   - objectID: cash_register_1
     objectWithProductLevels:
-    - maxProductAmount: 0
+    - levelUpPrice: 0
+      maxProductAmount: 0
       productPrice: 0
       durationOfSelection: 0
   - objectID: cash_register_2
     objectWithProductLevels:
-    - maxProductAmount: 0
+    - levelUpPrice: 0
+      maxProductAmount: 0
       productPrice: 0
       durationOfSelection: 0
   - objectID: cash_register_3
     objectWithProductLevels:
-    - maxProductAmount: 0
+    - levelUpPrice: 0
+      maxProductAmount: 0
       productPrice: 0
       durationOfSelection: 0
